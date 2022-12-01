@@ -31,7 +31,7 @@ bash run_examples.sh
 <img src=https://user-images.githubusercontent.com/55969260/204971700-2f073e12-eb5b-44d2-9603-98640d045a42.png>
 
 ### RoBERTa-base
-<img src=>
+<img src=https://user-images.githubusercontent.com/55969260/204977100-2d7513ef-9b07-4fb6-9494-62ff385cad18.png>
 
 ## Discussion
 - CRF 추가 시 성능 하락
