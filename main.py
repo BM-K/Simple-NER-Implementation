@@ -22,10 +22,6 @@ def main(args, logger) -> None:
         processor.metric.print_size_of_model(config['model'])
         processor.metric.count_parameters(config['model'])
 
-    if args.mask_post_training_data == 'True':
-        processor.post_training()
-
-
 if __name__ == '__main__':
     args, logger = Setting().run()
     main(args, logger)
