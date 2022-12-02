@@ -25,9 +25,6 @@ class ClassificationModel(nn.Module):
         else:
             self.model = BertForTokenClassification.from_pretrained(self.args.model,
                                                                     config=self.config)
-            #raise NotImplementedError
-
-        self.cos = nn.CosineSimilarity(dim=-1)
 
     def forward(self, config, inputs, mode):
         outputs = self.model(input_ids=inputs['source'],
