@@ -28,11 +28,7 @@ bash run_examples.sh
 
 ## 결과
 ### BERT-base
-<img src=https://user-images.githubusercontent.com/55969260/204971700-2f073e12-eb5b-44d2-9603-98640d045a42.png>
+<img src=https://user-images.githubusercontent.com/55969260/206592575-91f3039a-07ad-432a-a956-27640b810073.png>
 
 ### RoBERTa-base
-<img src=https://user-images.githubusercontent.com/55969260/204977100-2d7513ef-9b07-4fb6-9494-62ff385cad18.png>
-
-## Discussion
-- CRF 추가 시 성능 하락
-- Post-training 시 성능 하락 ㅎ^ㅎ..
+<img src=https://user-images.githubusercontent.com/55969260/206592626-70d8c755-6a7c-4838-8b31-3a80a8ea3d59.png>
