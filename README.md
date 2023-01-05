@@ -1,7 +1,5 @@
 # Simple-NER-Implementation
 한국어 개체명인식기 (BERT based Named Entity Recognition model for Korean)
-> **Warning** <br>
-> 간단하지 않을지도..?
 
 ## 학습 환경
 [![Python](https://img.shields.io/badge/python-3.8.5-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-385/)
