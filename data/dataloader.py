@@ -21,12 +21,6 @@ class ModelDataLoader(Dataset):
         self.input_ids = []
         self.attention_mask = []
 
-        """
-        [CLS]: 2
-        [PAD]: 0
-        [UNK]: 1
-        """
-
         self.init_token = self.tokenizer.cls_token
         self.pad_token = self.tokenizer.pad_token
         self.unk_token = self.tokenizer.unk_token
